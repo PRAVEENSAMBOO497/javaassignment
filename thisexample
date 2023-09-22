@@ -7,7 +7,7 @@ class student
     student()
 	{
 	    name="Hari";
-        age=22;
+            age=22;
 	    roll=1;
 	    this.displaystudent();
 	}
@@ -26,9 +26,9 @@ class teacher extends student
    teacher()
 	{
 	    super();
-	    name="Sivam";
-        age=45;
-	    roll=1;
+	    name="praveen";
+            age=22;
+	    roll=3;
 	    this.displayteacher();
 	}
 
@@ -46,9 +46,9 @@ class principal extends teacher
    principal()
 	{
 	    super();
-	    name="SathishSivam";
-            age=55;
-	    roll=1;
+	    name="Muthu";
+            age=23;
+	    roll=5;
 	    this.displayprincipal();
 	}
 
