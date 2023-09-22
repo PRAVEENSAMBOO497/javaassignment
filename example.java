@@ -1,21 +1,23 @@
 class sample
  {
+    sample()	
 	{
-	   System.out.println("i am praveen");	
+	
 	}
 
-    sample()
+   public void getdata(int x,int y)	
 	{
-	   System.out.println("its is an java progarm");
-	} 
- }
+	   int sum=x+y;
+	   System.out.println("Addition="+sum);
+	}
+  }
 
 
-class democons1
-  {
-     public static void main(String asd[])
+class example
+ {
+    public static void main(String[] s)
 	{
-	    System.out.println("hello everyone");
-	    sample obj=new sample();
+	   sample obj=new sample();
+	   obj.getdata(31,12);	
 	}
  }
