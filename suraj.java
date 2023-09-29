@@ -1,30 +1,33 @@
-import pack.pack2;
-class pack1 extends pack2
-{
-    String city;
-    int roll;
- pack1(String name,String city,int age,int roll )
+package package1;
+
+public class suraj extends praveen
   {
-     super(name,age);
-      this.city=city;
-        this.roll=roll;
-  }  
-
-
-     public void displaypack1()
+     String city;
+     int roll;
+     
+    public suraj(String name,int age,String city,int roll)
+     { 
+       super(name,age); 
+       this.city =city;
+       this.roll=roll; 
+     }
+     public void displaysuraj()
      {
-        System.out.println("city"+city);
-        System.out.println("roll"+roll);
+         System.out.println("enter the city " +city);
+         System.out.println("enter the roll"+roll);
      }
 
-  }
-class suraj
-{
-   public static void main (String aj[])
-   {
-      pack1 obj = new pack1("praveen","salem",22,2);
-      obj.displaypack2();
-      obj.displaypack1();
-   }
-}
-
+ }
+ class hari
+ {
+    public static void main(String args[])
+    {
+        suraj obj=new suraj("ram",21,"salem",2);
+        obj.displaypraveen();
+        obj.displaysuraj();
+    }
+ }
+ 
+ 
+    
+  
