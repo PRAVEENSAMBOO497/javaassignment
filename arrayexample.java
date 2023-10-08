@@ -1,11 +1,29 @@
-class arrayexample 
+
+class Student
 {
-    public static void main(String ard[])
-  {
-    int x[]=new int[10];
-    x[0]=10;
-    x[1]=12;
-    System.out.println(x[0]);
-    System.out.println(x[1]);
-  } 
+	
+	public String name;
+	Student(String name)
+	{
+		this.name = name;
+	}
+	@Override
+	public String toString(){
+		return name;
+	}
+}
+
+
+public class arrayexample
+{
+	public static void main (String[] args)
+	{
+		
+		Student[] myStudents = new Student[]{new Student("Dharma"),new Student("sanvi"),new Student("Rupa"),new Student("Ajay")};
+
+		
+		for(Student m:myStudents){ 
+			System.out.println(m);
+		}
+	}
 }
