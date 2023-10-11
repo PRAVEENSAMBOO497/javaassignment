@@ -9,7 +9,7 @@ class peekfirstexample
       
       LinkedList list = new LinkedList<>();
 
-      // add some elements
+      
       list.add("Hello");
       list.add(2);
       list.add("Chocolate");
